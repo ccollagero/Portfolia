@@ -22,7 +22,7 @@ st.markdown(
 st.write(f"Start value: ${investment:,.2f} &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Start date: {start_date}")
 
 data = yf.download(list(percentages.keys()), start=start_date)
-start = data['Adj Close'].iloc[0]
+start = data['Close'].iloc[0]
 index_list = start.index.tolist()
 
 holdings = {}
@@ -34,7 +34,7 @@ for idx in index_list:
 holdings_series = pd.Series(holdings)
 
 # Multiply each column by the corresponding holding and sum across columns to get daily portfolio value
-portfolio_daily_value = data['Adj Close'].mul(holdings_series, axis=1).sum(axis=1)
+portfolio_daily_value = data['Close'].mul(holdings_series, axis=1).sum(axis=1)
 portfolio_daily_value.index = portfolio_daily_value.index.strftime('%Y-%m-%d')
 portfolio_daily_value = portfolio_daily_value.rename('Portfolio Value ($$)')
 
