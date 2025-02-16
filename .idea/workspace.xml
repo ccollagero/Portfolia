@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9ca5cc7-62c4-4a1b-b0fd-afa245310cd5" name="Changes" comment="Initial commit" />
+    <list default="true" id="a9ca5cc7-62c4-4a1b-b0fd-afa245310cd5" name="Changes" comment="Initial commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/Pelosi.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Pelosi.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,7 +21,7 @@
 }</component>
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/ccollagero/Portfolia&quot;,
+    &quot;url&quot;: &quot;git@github.com:ccollagero/Portfolia.git&quot;,
     &quot;accountId&quot;: &quot;607d1354-950f-468b-a20e-0616f99926cb&quot;
   }
 }</component>
@@ -90,7 +93,7 @@
       <updated>1739682273182</updated>
       <workItem from="1739682274207" duration="1159000" />
       <workItem from="1739683455195" duration="3727000" />
-      <workItem from="1739688387364" duration="802000" />
+      <workItem from="1739688387364" duration="3260000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -116,7 +119,23 @@
       <option name="project" value="LOCAL" />
       <updated>1739683636586</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1739689560109</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1739689560109</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Initial commit">
+      <option name="closed" value="true" />
+      <created>1739690148515</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1739690148515</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
