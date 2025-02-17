@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9ca5cc7-62c4-4a1b-b0fd-afa245310cd5" name="Changes" comment="Refactoring">
-      <change afterPath="$PROJECT_DIR$/pages/Burry.py" afterDir="false" />
+    <list default="true" id="a9ca5cc7-62c4-4a1b-b0fd-afa245310cd5" name="Changes" comment="New Portfolio">
+      <change afterPath="$PROJECT_DIR$/pages/Rouzer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +36,9 @@
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2t6pFNEswJHfE7Ij1RDiwQE7Qwk" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -106,7 +108,7 @@
       <updated>1739682273182</updated>
       <workItem from="1739682274207" duration="1159000" />
       <workItem from="1739683455195" duration="3727000" />
-      <workItem from="1739688387364" duration="13191000" />
+      <workItem from="1739688387364" duration="14519000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -204,7 +206,23 @@
       <option name="project" value="LOCAL" />
       <updated>1739774531972</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="New Portfolio">
+      <option name="closed" value="true" />
+      <created>1739816536056</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1739816536056</updated>
+    </task>
+    <task id="LOCAL-00014" summary="New Portfolio">
+      <option name="closed" value="true" />
+      <created>1739816717479</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1739816717479</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,7 +245,8 @@
     <MESSAGE value="Project settings added" />
     <MESSAGE value="Common functionality separated" />
     <MESSAGE value="Refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactoring" />
+    <MESSAGE value="New Portfolio" />
+    <option name="LAST_COMMIT_MESSAGE" value="New Portfolio" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Portfolia$Pelosi.coverage" NAME="Pelosi Coverage Results" MODIFIED="1739773688091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pages" />
