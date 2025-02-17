@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9ca5cc7-62c4-4a1b-b0fd-afa245310cd5" name="Changes" comment="New Portfolio">
+    <list default="true" id="a9ca5cc7-62c4-4a1b-b0fd-afa245310cd5" name="Changes" comment="New layout">
+      <change afterPath="$PROJECT_DIR$/pages/Crenshaw.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/Burry.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Burry.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/Pelosi.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Pelosi.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/Rouzer.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Rouzer.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,7 +108,7 @@
       <updated>1739682273182</updated>
       <workItem from="1739682274207" duration="1159000" />
       <workItem from="1739683455195" duration="3727000" />
-      <workItem from="1739688387364" duration="17285000" />
+      <workItem from="1739688387364" duration="18635000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -232,7 +230,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739817979496</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="New layout">
+      <option name="closed" value="true" />
+      <created>1739821875314</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1739821875314</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,7 +262,8 @@
     <MESSAGE value="Common functionality separated" />
     <MESSAGE value="Refactoring" />
     <MESSAGE value="New Portfolio" />
-    <option name="LAST_COMMIT_MESSAGE" value="New Portfolio" />
+    <MESSAGE value="New layout" />
+    <option name="LAST_COMMIT_MESSAGE" value="New layout" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Portfolia$Pelosi.coverage" NAME="Pelosi Coverage Results" MODIFIED="1739773688091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pages" />
