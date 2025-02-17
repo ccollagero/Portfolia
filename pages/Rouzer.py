@@ -10,6 +10,7 @@ st.sidebar.header("Rouzer Portfolio")
 percentages = {'JETS':15.00, 'NVDA':14.00, 'V':11.00, 'MA':11.00, 'GLD':11.00, 'BA':10.00, 'XLK':10.00, 'AMD':9.00, 'RTX':5.00, 'SPTM':5.00}
 start_date = '2025-01-28'
 investment = 2000
+reversed_df = get_portfolio_data(percentages, start_date, investment)
 
 st.markdown(
 	"""
@@ -25,11 +26,18 @@ df['Percentage'] = df['Percentage'].round(2)
 st.write("### Portfolio composition")
 st.write(df)
 
-st.write("### Portfolio Performance")
-st.write(f"Start value: ${investment:,.2f} &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Start date: {start_date}")
+col1, col2 = st.columns(2)
 
-reversed_df = get_portfolio_data(percentages, start_date, investment)
-st.write(f"Current value: ${reversed_df.iloc[0]:,.2f} &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Performance: {round((reversed_df.iloc[0]-investment)/investment*100, 2)}%")
+col1.subheader("Daily values")
+col1.dataframe(reversed_df)
 
-st.dataframe(reversed_df)
+col2.subheader("Performance")
+col2.markdown(f"""
+			- Start value: ${investment:,.2f}
+			- Start date: {start_date}
+			- Current value: ${reversed_df.iloc[0]:,.2f}
+			- Performance: {round((reversed_df.iloc[0]-investment)/investment*100, 2)}%
+			"""
+)
+
 st.line_chart(reversed_df.iloc[::-1])
