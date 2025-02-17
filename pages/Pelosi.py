@@ -22,6 +22,8 @@ st.markdown(
 df = pd.DataFrame(list(percentages.items()), columns=['Ticker', 'Percentage'])
 df.set_index('Ticker', inplace=True)
 df['Percentage'] = df['Percentage'].round(2)
+
+st.write("\n\n### Portfolio composition")
 st.write(df)
 
 st.write(f"Start value: ${investment:,.2f} &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Start date: {start_date}")
