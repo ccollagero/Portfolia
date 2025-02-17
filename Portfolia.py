@@ -8,7 +8,6 @@ st.set_page_config(
 )
 
 st.write("# Welcome to Portfolia!! 👋")
-st.sidebar.success("Select a portfolio above")
 
 st.markdown(
 	"""

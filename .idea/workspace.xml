@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9ca5cc7-62c4-4a1b-b0fd-afa245310cd5" name="Changes" comment="Project settings added">
-      <change afterPath="$PROJECT_DIR$/pages/common.py" afterDir="false" />
+    <list default="true" id="a9ca5cc7-62c4-4a1b-b0fd-afa245310cd5" name="Changes" comment="Common functionality separated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Portfolia.py" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolia.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/Pelosi.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Pelosi.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/common.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +46,7 @@
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
     &quot;Python.Pelosi.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
@@ -57,6 +59,12 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/pages" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="Portfolia" />
@@ -67,7 +75,6 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="SDK_NAME" value="Python 3.9 virtualenv at ~/tf" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -101,7 +108,7 @@
       <updated>1739682273182</updated>
       <workItem from="1739682274207" duration="1159000" />
       <workItem from="1739683455195" duration="3727000" />
-      <workItem from="1739688387364" duration="4816000" />
+      <workItem from="1739688387364" duration="11148000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -159,7 +166,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739729102624</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Common functionality separated">
+      <option name="closed" value="true" />
+      <created>1739755339624</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1739755339624</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,9 +195,11 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="Adj Close error" />
     <MESSAGE value="Project settings added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project settings added" />
+    <MESSAGE value="Common functionality separated" />
+    <option name="LAST_COMMIT_MESSAGE" value="Common functionality separated" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Portfolia$Pelosi.coverage" NAME="Pelosi Coverage Results" MODIFIED="1739683200053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pages" />
+    <SUITE FILE_PATH="coverage/Portfolia$Pelosi.coverage" NAME="Pelosi Coverage Results" MODIFIED="1739773688091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pages" />
+    <SUITE FILE_PATH="coverage/Portfolia$main.coverage" NAME="main Coverage Results" MODIFIED="1739772818352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
