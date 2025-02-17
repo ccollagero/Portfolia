@@ -7,7 +7,7 @@ from common import get_portfolio_data
 st.set_page_config(page_title="Burry Portfolio", page_icon="📈")
 st.sidebar.header("Burry Portfolio")
 
-percentages = {'BABA':27.00, 'JD':23.00, 'PANW':10.46, 'FOUR':20.00, 'BIDU':13.00, 'MOH':9.00, 'REAL':4.00, 'OLPX':2.00, 'ACIC':1.00}
+percentages = {'BABA':27.00, 'JD':23.00, 'FOUR':20.00, 'BIDU':13.00, 'MOH':9.00, 'REAL':4.00, 'OLPX':2.00, 'ACIC':1.00}
 start_date = '2025-01-28'
 investment = 2000
 
