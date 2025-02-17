@@ -4,8 +4,9 @@ import streamlit as st
 import pandas as pd
 from common import get_portfolio_data
 
-st.set_page_config(page_title="Rouzer Portfolio", page_icon="📈")
-st.sidebar.header("Rouzer Portfolio")
+name = "Rouzer"
+st.set_page_config(page_title=f"{name} Portfolio", page_icon="📈")
+st.sidebar.header(f"{name} Portfolio")
 
 percentages = {'JETS':15.00, 'NVDA':14.00, 'V':11.00, 'MA':11.00, 'GLD':11.00, 'BA':10.00, 'XLK':10.00, 'AMD':9.00, 'RTX':5.00, 'SPTM':5.00}
 start_date = '2025-01-28'
@@ -13,8 +14,8 @@ investment = 2000
 reversed_df = get_portfolio_data(percentages, start_date, investment)
 
 st.markdown(
-	"""
-	### Rouzer stock portfolio
+	f"""
+	### {name} stock portfolio
 	David Cheston Rouzer is an American politician who is the U.S. representative for North Carolina's 7th congressional district. As a prolific public market investor, Rouzer posted a 149% portfolio gain for 2024, beating every other U.S. Congressman and more than doubling the gains posted by Nancy Pelosi.
 """
 )

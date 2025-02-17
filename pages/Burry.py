@@ -4,8 +4,9 @@ import streamlit as st
 import pandas as pd
 from common import get_portfolio_data
 
-st.set_page_config(page_title="Burry Portfolio", page_icon="📈")
-st.sidebar.header("Burry Portfolio")
+name = "Burry"
+st.set_page_config(page_title=f"{name} Portfolio", page_icon="📈")
+st.sidebar.header(f"{name} Portfolio")
 
 percentages = {'BABA':27.00, 'JD':23.00, 'FOUR':20.00, 'BIDU':13.00, 'MOH':9.00, 'REAL':4.00, 'OLPX':2.00, 'ACIC':1.00}
 start_date = '2025-01-28'
@@ -13,8 +14,8 @@ investment = 2000
 reversed_df = get_portfolio_data(percentages, start_date, investment)
 
 st.markdown(
-	"""
-	### Burry stock portfolio
+	f"""
+	### {name} stock portfolio
 	Michael James Burry is an American investor and hedge fund manager. He founded the hedge fund Scion Capital, which he ran from 2000 until 2008 before closing it to focus on his personal investments. He is best known for being among the first investors to predict and profit from the subprime mortgage crisis between 2007 and 2010.
 """
 )
