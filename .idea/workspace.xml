@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a9ca5cc7-62c4-4a1b-b0fd-afa245310cd5" name="Changes" comment="Refactoring">
+      <change afterPath="$PROJECT_DIR$/pages/Burry.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/Pelosi.py" beforeDir="false" afterPath="$PROJECT_DIR$/pages/Pelosi.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -106,7 +106,7 @@
       <updated>1739682273182</updated>
       <workItem from="1739682274207" duration="1159000" />
       <workItem from="1739683455195" duration="3727000" />
-      <workItem from="1739688387364" duration="11942000" />
+      <workItem from="1739688387364" duration="13191000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -196,7 +196,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739774450852</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Refactoring">
+      <option name="closed" value="true" />
+      <created>1739774531972</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1739774531972</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
