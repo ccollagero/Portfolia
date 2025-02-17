@@ -15,7 +15,7 @@ st.markdown(
 	"""
 	### Pelosi stock portfolio
 	Heralded as the queen of political stock trading, she made a name for herself by profiting in tech stocks that happened to benefit from legislation. Specializes in making \"notable, eyebrow raising\" trades.
-	### Insider trader emeritae...
+	Insider trader emeritae...
 """
 )
 
@@ -23,7 +23,7 @@ df = pd.DataFrame(list(percentages.items()), columns=['Ticker', 'Percentage'])
 df.set_index('Ticker', inplace=True)
 df['Percentage'] = df['Percentage'].round(2)
 
-st.write("\n\n### Portfolio composition")
+st.write("### Portfolio composition")
 st.write(df)
 
 st.write(f"Start value: ${investment:,.2f} &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Start date: {start_date}")
