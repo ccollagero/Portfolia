@@ -26,6 +26,7 @@ df['Percentage'] = df['Percentage'].round(2)
 st.write("### Portfolio composition")
 st.write(df)
 
+st.write("### Portfolio Performance")
 st.write(f"Start value: ${investment:,.2f} &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Start date: {start_date}")
 
 reversed_df = get_portfolio_data(percentages, start_date, investment)
