@@ -17,7 +17,7 @@ st.markdown(
 	## Want to learn more?
 	Autopilot is the smart investing app that puts your money on “autopilot” by mirroring the moves of the market’s top insiders. Imagine tapping into the strategies of influential politicians, seasoned hedge fund managers, and key industry insiders—all without needing to spend hours poring over financial data.
 
-	###Key Features:
+	### Key Features:
 	- Insider-Inspired Portfolios: Autopilot analyzes public portfolio data from top-performing insiders to build a diversified investment strategy tailored for you.
 	- Hands-Free Investing: With automated rebalancing and real-time monitoring, your investments are managed seamlessly, letting you focus on what matters most.
 	- Data-Driven Decisions: Leverage advanced analytics to replicate strategies proven by those who have a track record of success in navigating the markets.
