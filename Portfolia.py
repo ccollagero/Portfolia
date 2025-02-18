@@ -7,23 +7,21 @@ st.set_page_config(
 	page_icon="👋",
 )
 
+details = {"money": 2000, "first_day": "2025-01-28"}
 st.write("# Welcome to Portfolia!! 👋")
 
 st.markdown(
 	"""
-	Streamlit is an open-source app framework built specifically for
-	Machine Learning and Data Science projects.
-	**👈 Select a demo from the sidebar** to see some examples
-	of what Streamlit can do!
-	### Want to learn more?
-	- Check out [streamlit.io](https://streamlit.io)
-	- Jump into our [documentation](https://docs.streamlit.io)
-	- Ask a question in our [community
-		forums](https://discuss.streamlit.io)
-	### See more complex demos
-	- Use a neural net to [analyze the Udacity Self-driving Car Image
-		Dataset](https://github.com/streamlit/demo-self-driving)
-	- Explore a [New York City rideshare dataset](https://github.com/streamlit/demo-uber-nyc-pickups)
+	Invest like the insiders and take the guesswork out of building a winning portfolio—Autopilot is your gateway to smarter, data-driven investing.
+	**👈 Select a demo from the sidebar** to see some examples of what Autopilot can do!
+	## Want to learn more?
+	Autopilot is the smart investing app that puts your money on “autopilot” by mirroring the moves of the market’s top insiders. Imagine tapping into the strategies of influential politicians, seasoned hedge fund managers, and key industry insiders—all without needing to spend hours poring over financial data.
+
+	###Key Features:
+	- Insider-Inspired Portfolios: Autopilot analyzes public portfolio data from top-performing insiders to build a diversified investment strategy tailored for you.
+	- Hands-Free Investing: With automated rebalancing and real-time monitoring, your investments are managed seamlessly, letting you focus on what matters most.
+	- Data-Driven Decisions: Leverage advanced analytics to replicate strategies proven by those who have a track record of success in navigating the markets.
+	- User-Friendly Interface: Whether you’re new to investing or a seasoned pro, Autopilot makes it easy to get started and monitor your portfolio’s performance.
 """
 )
 
