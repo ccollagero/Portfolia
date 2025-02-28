@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a9ca5cc7-62c4-4a1b-b0fd-afa245310cd5" name="Changes" comment="New portfolio">
-      <change afterPath="$PROJECT_DIR$/.idea/Portfolia.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="a9ca5cc7-62c4-4a1b-b0fd-afa245310cd5" name="Changes" comment="Stuff">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Portfolia.py" beforeDir="false" afterPath="$PROJECT_DIR$/Portfolia.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,12 +25,12 @@
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {}
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/ccollagero/Portfolia.git",
-    "accountId": "607d1354-950f-468b-a20e-0616f99926cb"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ccollagero/Portfolia.git&quot;,
+    &quot;accountId&quot;: &quot;607d1354-950f-468b-a20e-0616f99926cb&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -116,7 +110,7 @@
       <workItem from="1739688387364" duration="22507000" />
       <workItem from="1739842739458" duration="854000" />
       <workItem from="1739844960015" duration="384000" />
-      <workItem from="1739851891218" duration="1275000" />
+      <workItem from="1739851891218" duration="3304000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <option name="closed" value="true" />
@@ -270,7 +264,23 @@
       <option name="project" value="LOCAL" />
       <updated>1739824690234</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Stuff">
+      <option name="closed" value="true" />
+      <created>1739855594968</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1739855594968</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Stuff">
+      <option name="closed" value="true" />
+      <created>1739855713110</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1739855713110</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -296,7 +306,8 @@
     <MESSAGE value="New Portfolio" />
     <MESSAGE value="New layout" />
     <MESSAGE value="New portfolio" />
-    <option name="LAST_COMMIT_MESSAGE" value="New portfolio" />
+    <MESSAGE value="Stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="Stuff" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Portfolia$Pelosi.coverage" NAME="Pelosi Coverage Results" MODIFIED="1739773688091" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pages" />
